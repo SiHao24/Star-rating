@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.rating{
+    width: 150px;
+    height: 30px;
+    margin: 100px auto;
+}
+.rating-item {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url(../images/rating.png) no-repeat;
+    cursor: pointer;
+    /* background-position: 0 40px; */
+}
