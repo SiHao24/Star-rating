@@ -31,8 +31,8 @@ var rating = (function(){
     }
 
     // jQuery插件
-    $.fn.extand({
-        rating: function(n) {
+    $.fn.extend({
+        rating: function(num) {
             return this.each(function() {
                 init(this, num);
             })
